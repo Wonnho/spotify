@@ -1,0 +1,101 @@
+.navbar {
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+  justify-content: space-around;
+  padding: 8px;
+}
+
+.navbar img {
+  right: 40px;
+  /* put the Spotify to the right next to image */
+}
+
+.navbar > a {
+  text-decoration: none;
+  color: aliceblue;
+  margin-bottom: 0 12px;
+}
+
+.navbar > a:hover {
+  color: aquamarine;
+}
+
+.children:first-child {
+  right: 20px;
+}
+
+.children:nth-child(5) {
+  justify-items: flex-end;
+}
+
+.main {
+  /* position: relative; */
+  background-color: blue;
+  text-align: center;
+  margin-top: -68px;
+  /* overflow: hidden; */
+}
+
+.symbol {
+  font-size: 68px;
+  font-weight: 240px;
+  color: chartreuse;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.symbol:first-child {
+  padding-top: 120px;
+}
+
+.symbol:nth-child(2) {
+  margin-top: -40px;
+  padding-left: 160px;
+}
+
+.main p:nth-child(3) {
+  margin-top: -30px;
+  font-size: 8px;
+  color: chartreuse;
+  padding-left: 180px;
+}
+
+.spot-btn {
+  background-color: chartreuse;
+  padding: 8px 11px;
+  border-radius: 19px;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-bottom: 110px;
+}
+
+.half-circle {
+  position: absolute;
+  top: 50%;
+  right: -220px; /* Adjust the position */
+  width: 300px; /* Diameter of the circle */
+  height: 300px;
+  background-color: #1db954; /* Same color as the container */
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.circle-large {
+  position: absolute;
+  bottom: -250px; /* Adjust the position */
+  left: -100px; /* Adjust the position */
+  width: 400px; /* Diameter of the large circle */
+  height: 400px;
+  background-color: #1db954; /* Green color */
+  border-radius: 50%;
+}
+
+.circle-small {
+  position: absolute;
+  bottom: 0;
+  left: -100px;
+  width: 200px; /* Diameter of the small circle */
+  height: 200px;
+  background-color: rebeccapurple; /* Green color */
+  border-radius: 50%;
+}
